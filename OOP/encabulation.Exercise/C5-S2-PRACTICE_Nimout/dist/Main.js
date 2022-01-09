@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var Circle_1 = require("./Circle");
+var Rectangle_1 = require("./Rectangle");
+var Square_1 = require("./Square");
+var Triangle_1 = require("./Triangle");
+var circle = new Circle_1.Circle(2, 3, 3);
+var rectangle = new Rectangle_1.Rectangle(1, 3, 4, 4);
+var square = new Square_1.Square(1, 4, 5);
+var triangle = new Triangle_1.Triangle(2, 1, 3, 4);
+console.log(circle.getWidth());
+console.log(rectangle.getArea());
+console.log(square.getArea());
+console.log(circle.getArea());
+console.log(triangle.getArea());

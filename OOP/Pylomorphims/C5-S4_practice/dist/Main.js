@@ -1,0 +1,10 @@
+var batMen = new BatMobile(true, '1002', 45);
+var min = new MiniVan(45, 5, '2002', 1);
+var tuctuc = new TucTc(45, '2002', 3);
+var vehicle = new VehicleConvey();
+vehicle.addVehicle(batMen);
+vehicle.addVehicle(min);
+vehicle.addVehicle(tuctuc);
+console.log(batMen.getSpeed());
+console.log(min.getSpeed());
+console.log(vehicle.getMaxSpeed());

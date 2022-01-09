@@ -1,0 +1,3 @@
+interface SkillResource{
+    getSkill(): string[]
+}

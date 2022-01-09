@@ -1,0 +1,3 @@
+interface NameResource{
+    getName(): string;
+}

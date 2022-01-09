@@ -1,0 +1,14 @@
+Inheritance 
+
+extends
+Super is a parent 
+We use super for constractor 
+We use super to call constractor in  publish class.
+But we can't use super to call constractor in private class.
+
+Protected can acess kloun eng and child.
+what is abstract method?
+abstract is a template or farture. key void. មិនចាំបាច់ដាក់keyក៏បាន
+
+Object can not create in abstract class.
+
